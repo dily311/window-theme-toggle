@@ -1,0 +1,2 @@
+Set WShell = CreateObject("WScript.Shell")
+WShell.Run "powershell.exe -NoProfile -ExecutionPolicy Bypass -STA -WindowStyle Hidden -File ""%USERPROFILE%\UserScript\ThemeToggle\ThemeToggle.ps1""", 0, False
